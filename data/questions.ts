@@ -50,15 +50,15 @@ export const questions: QuestionType[] = [
   },
   {
     id: 7,
-    question: "Niyyət harada edilir?",
-    options: ["Qəlbdə", "Uca səslə", "Kağızda", "Yazılı şəkildə"],
-    correctAnswer: "Qəlbdə",
+    question: "Niyyət fərzdir, deyərkən nə nəzərdə tutulur?",
+    options: ["Qəlbdə niyyət etmək", "Dil ilə niyyət etmək", "Fərz deyil"],
+    correctAnswer: "Qəlbdə niyyət etmək",
     difficulty: "easy"
   },
   {
     id: 8,
     question: "Zəkat kimlərə verilir?",
-    options: ["Zənginlərə", "18 yaşına çatmamış şəxslərə", "Qadınlara", "üç və daha çox uşağı olanlara"],
+    options: ["Zənginlərə", "Kasıblara", "Yaxın qohumlara", "bütün müsəlmanlara"],
     correctAnswer: "Ehtiyacı olanlara",
     difficulty: "easy"
   },
@@ -93,8 +93,8 @@ export const questions: QuestionType[] = [
   {
     id: 12,
     question: "Dəstəmazı pozan hal hansıdır?",
-    options: ["Yatmaq", "Qan çıxması", "Asqırmaq", "Qadına toxunmaq"],
-    correctAnswer: "Yatmaq",
+    options: ["Yemək yemək", "Qan çıxması və yayılması", "Asqırmaq", "Qadına toxunmaq"],
+    correctAnswer: "Qan çıxması və yayılması",
     difficulty: "medium"
   },
   {
@@ -109,7 +109,7 @@ export const questions: QuestionType[] = [
   {
     id: 14,
     question: "Qüsl nə zaman vacib olur?",
-    options: ["Yeməkdən sonra", "Cənabət halında", "Yuxudan sonra", "Gəzinti zamanı"],
+    options: ["Yeməkdən sonra", "Cənabət halında", "Yuxudan sonra", "Məzi gələrkən"],
     correctAnswer: "Cənabət halında",
     difficulty: "easy"
   },
@@ -132,7 +132,7 @@ export const questions: QuestionType[] = [
   {
     id: 17,
     question: "Orucun niyyəti nə vaxt edilir?",
-    options: ["Gecə", "Günorta", "Axşam", "Həmişə"],
+    options: ["Gecə", "Günorta", "Sübhdən sonra"],
     correctAnswer: "Gecə",
     difficulty: "medium"
   },
@@ -154,10 +154,45 @@ export const questions: QuestionType[] = [
   },
   {
     id: 20,
-    question: "Vitir namazı neçə rükətdir?",
+    question: "Vitr namazı neçə rükətdir?",
     options: ["1", "2", "3", "4"],
     correctAnswer: "3",
     difficulty: "easy"
   },
+    {
+    id: 21,
+    question: "İmanın şərtlərindən biridir?",
+    options: ["Kəlmeyi şəhadət gətirmək", "Axirətə inanmaq", "Oruc tutmaq", "Qüsl almaq"],
+    correctAnswer: "Axirətə inanmaq",
+    difficulty: "easy"
+  },
+    {
+    id: 22,
+    question: "Təyəmmüm nədir?",
+    options: ["Torpaq,qum və ya tozla üz və əlləri məsh etmə əməlidir", "Nafilə namazdır", "Orucun bir növüdür"],
+    correctAnswer: "Torpaq,qum və ya tozla üz və əlləri məsh etmə əməlidir",
+    difficulty: "easy"
+  },
+    {
+    id: 23,
+    question: "Biri orucu pozan əməldir",
+    options: ["Udqunmaq", "Söyüş söymək", "Dəsnamaz alarkən boğaza suyun getməsi"],
+    correctAnswer: "3",
+    difficulty: "hard"
+  },
+   {
+    id: 24,
+    question: "Səfəri məsafə nə qədərdir?",
+    options: ["Təxmini 90km-lik məsafə", "15km-lik məsafə", "25km-lik məsafə"],
+    correctAnswer: "Təxmini 90km-lik məsafə",
+    difficulty: "hard"
+  },
+  {
+    id: 25,
+    question: "Biri məkruhdur?",
+    options: ["Telefondan dəsnamazsız Quran oxumaq", "Sübh namazını gec qılmaq", "Yatsı namazını gecənin son 1/3-də qılmaq","Axşam namazının dəsnamazı ilə yatsı namazını qılmaq"],
+    correctAnswer: "Təxmini 90km-lik məsafə",
+    difficulty: "hard"
+  }
 ]
   // ---------------- DAVAM (21–50) ----------------

@@ -13,10 +13,10 @@ export default function Home() {
   return (
     <div className="min-h-screen flex items-center justify-center px-5">
 
-      <div className="text-center">
+      <div className="text-center flex flex-col items-center">
 
         <h1 className="text-4xl font-bold mb-10">
-          Fiqh Quiz
+          Hənəfi Fiqhi üzrə Quiz
         </h1>
 
         <p className="text-gray-400 mb-10">
