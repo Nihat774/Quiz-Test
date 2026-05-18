@@ -10,6 +10,7 @@ import Link from "next/link"
 import { GrFormNext } from "react-icons/gr"
 import { FaCheck } from "react-icons/fa"
 import { MdOutlineClose } from "react-icons/md"
+import Loading from "./Loading"
 
 export default function QuizPage() {
 
@@ -124,11 +125,7 @@ export default function QuizPage() {
 
   if (!currentQuestion) {
     return (
-      <div className="bg-black min-h-screen flex justify-center items-center">
-        <div className="w-full h-full flex justify-center items-center">
-          <img className="h-[20%] w-[20%] object-cover" src="/Loading Downloading GIF.gif" alt="loading" />
-        </div>
-      </div>
+      <Loading />
     )
   }
 
