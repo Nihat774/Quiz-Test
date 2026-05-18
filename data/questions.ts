@@ -57,9 +57,9 @@ export const questions: QuestionType[] = [
   },
   {
     id: 8,
-    question: "Zəkat kimlərə verilir?",
+    question: "Zəkat kimlərə verilirə bilər?",
     options: ["Zənginlərə", "Kasıblara", "Yaxın qohumlara", "bütün müsəlmanlara"],
-    correctAnswer: "Ehtiyacı olanlara",
+    correctAnswer: "Kasıblara",
     difficulty: "easy"
   },
   {
@@ -159,28 +159,28 @@ export const questions: QuestionType[] = [
     correctAnswer: "3",
     difficulty: "easy"
   },
-    {
+  {
     id: 21,
     question: "İmanın şərtlərindən biridir?",
     options: ["Kəlmeyi şəhadət gətirmək", "Axirətə inanmaq", "Oruc tutmaq", "Qüsl almaq"],
     correctAnswer: "Axirətə inanmaq",
     difficulty: "easy"
   },
-    {
+  {
     id: 22,
     question: "Təyəmmüm nədir?",
     options: ["Torpaq,qum və ya tozla üz və əlləri məsh etmə əməlidir", "Nafilə namazdır", "Orucun bir növüdür"],
     correctAnswer: "Torpaq,qum və ya tozla üz və əlləri məsh etmə əməlidir",
     difficulty: "easy"
   },
-    {
+  {
     id: 23,
     question: "Biri orucu pozan əməldir",
     options: ["Udqunmaq", "Söyüş söymək", "Dəsnamaz alarkən boğaza suyun getməsi"],
-    correctAnswer: "3",
-    difficulty: "hard"
+    correctAnswer: "Dəsnamaz alarkən boğaza suyun getməsi",
+    difficulty: "medium"
   },
-   {
+  {
     id: 24,
     question: "Səfəri məsafə nə qədərdir?",
     options: ["Təxmini 90km-lik məsafə", "15km-lik məsafə", "25km-lik məsafə"],
@@ -190,9 +190,30 @@ export const questions: QuestionType[] = [
   {
     id: 25,
     question: "Biri məkruhdur?",
-    options: ["Telefondan dəsnamazsız Quran oxumaq", "Sübh namazını gec qılmaq", "Yatsı namazını gecənin son 1/3-də qılmaq","Axşam namazının dəsnamazı ilə yatsı namazını qılmaq"],
-    correctAnswer: "Təxmini 90km-lik məsafə",
+    options: ["Telefondan dəsnamazsız Quran oxumaq", "Sübh namazını gec qılmaq", "Yatsı namazını gecənin son 1/3-də qılmaq", "Axşam namazının dəsnamazı ilə yatsı namazını qılmaq"],
+    correctAnswer: "Yatsı namazını gecənin son 1/3-də qılmaq",
+    difficulty: "hard"
+  },
+  {
+    id: 26,
+    question: "Birinin hökmü vacibdir.",
+    options: ["Sübh namazını sünnəsi", "Cümə namazı", "Tilavət səcdəsi", "Zöhr namazı"],
+    correctAnswer: "Tilavət səcdəsi",
+    difficulty: "hard"
+  },
+  {
+    id: 27,
+    question: "Hansı namaz qılmaq üçün məkruh vaxtdır?",
+    options: ["Sübhdən 20dəqiqə əvvəl", "Zöhr namazından 30dəqiqə əvvəl", "Yatsı namazından sonra"],
+    correctAnswer: "Zöhr namazından 30dəqiqə əvvəl",
+    difficulty: "hard"
+  },
+    {
+    id: 28,
+    question: "Hansı namazın şərtlərindən deyil?",
+    options: ["İstiqbali-qiblə", "Sətri övrət", "Hədəsdən təharət","Qədeyi-axirə"],
+    correctAnswer: "Qədeyi-axirə",
     difficulty: "hard"
   }
 ]
-  // ---------------- DAVAM (21–50) ----------------
+// ---------------- DAVAM (21–50) ----------------
