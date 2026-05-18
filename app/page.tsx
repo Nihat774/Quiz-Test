@@ -42,7 +42,7 @@ export default function Home() {
           </button>
 
           <button
-            onClick={()=>alert("Bu bölmə üzrə suallar hələki tamamlanmayıb.")}
+            onClick={()=>startQuiz("hard")}
             className="flex items-center text-white cursor-pointer gap-3 bg-red-600 hover:bg-red-700 transition px-6 py-3 rounded-xl w-64 justify-center"
           >
             <FaRegFrown />
